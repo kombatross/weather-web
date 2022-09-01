@@ -1,0 +1,158 @@
+body{
+    /* background-image: linear-gradient(to top, #ace0f9 0%, #f8f8f8 120%); */
+    /* background: rgb(32, 31, 31); */
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    background: rgba(106, 113, 138, 0.52);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.7px);
+-webkit-backdrop-filter: blur(6.7px);
+border: 1px solid rgba(106, 113, 138, 0.3);
+font-family: 'Quicksand', sans-serif;
+}
+header{
+    background: rgba(100, 148, 237, 0.897);
+    height: 10%;
+    box-shadow:
+  28.2px 31.4px 24px -6px rgba(0, 0, 0, 0.12),
+  225px 251px 192px -6px rgba(0, 0, 0, 0.086);
+    z-index: 1000 !important;
+}
+h1{
+    top: -100px;
+    font-size: 72px;
+    color: antiquewhite;
+    margin-left: 40px;
+}
+img{
+    background-color: none;
+    height: 100px;
+    width: 100px
+}
+.logo{
+    height: 100px;
+    width: 30px;
+}
+.input{
+    height: 50px;
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+    background: rgba(64, 86, 169, 0.35);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.7px);
+-webkit-backdrop-filter: blur(6.7px);
+border: 1px solid rgba(64, 86, 169, 0.3);
+    font-size: 36px;
+    color: antiquewhite;
+}
+.clock{
+    /* font-family: 'Space Mono', monospace; */
+    font-size: 48px;
+    color: antiquewhite;
+}
+section{
+    /* z-index: -1; */
+    border-radius: 10px;
+    height: 100vh;
+    /* background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+ background-blend-mode: normal, lighten, soft-light; */
+    /* From https://css.glass */
+background: rgba(64, 86, 169, 0.35);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.7px);
+-webkit-backdrop-filter: blur(6.7px);
+border: 1px solid rgba(64, 86, 169, 0.3);
+
+}
+.currentWeather{
+    height: 120px;
+    width: 120px;
+}
+i{
+    font-size: 64px;
+}
+footer{
+    background: rgba(100, 148, 237, 0.897);
+    height: 5%;
+    box-shadow:
+  28.2px 31.4px 24px -6px rgba(0, 0, 0, 0.12),
+  225px 251px 192px -6px rgba(0, 0, 0, 0.086);
+}
+.frame li::marker{
+content: none;
+}
+
+.frame{
+    align-self: center;
+    /* margin-top: 40%; */
+    width: 40vw;
+    background: rgba(83, 99, 156, 0.24);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.7px);
+-webkit-backdrop-filter: blur(6.7px);
+border: 1px solid rgba(30, 44, 93, 0.38);
+font-size: x-large;
+color: rgba(253, 243, 243, 0.884);
+margin-top:5%;
+
+}
+.cityHolder{
+    margin-top: 10%;
+}
+.currentTemp{
+    
+    align-self: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 72px;
+    color: antiquewhite;
+}
+.temp{
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 30px;
+    color: antiquewhite;
+    font-size: 48px;
+}
+button{
+    border: none;
+    border-radius: 15px;
+    background: rgba(64, 86, 169, 0.35);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.7px);
+-webkit-backdrop-filter: blur(6.7px);
+border: 1px solid rgba(64, 86, 169, 0.3);
+font-size: 20px;
+}
+button:hover{
+    transition: 0.3s ease-in;
+    background: rgba(31, 39, 68, 0.35);
+    color: antiquewhite;
+}
+
+input:hover{
+    transition: 0.3s ease-in;
+    background: rgba(31, 39, 68, 0.35);
+    color: antiquewhite;
+}
+
+.upbar{
+    background: rgba(83, 99, 156, 0.24);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.7px);
+-webkit-backdrop-filter: blur(6.7px);
+border: 1px solid rgba(30, 44, 93, 0.38);
+font-size: x-large;
+color: rgba(253, 243, 243, 0.884);
+margin-top: 10%;
+text-align: center;
+}
+p{
+    font-size: 48px;
+}
